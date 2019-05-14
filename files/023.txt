@@ -1,0 +1,13 @@
+chatclient  h5页面 -- h5   http://test.sobot.com/chat/h5/index.html?sysNum=99cab16ac91e456c9d67272e09f964c8&partnerId=2222#0
+chatpc  pc页面  --pc   http://test.sobot.com/chat/pc/index.html?sysNum=99cab16ac91e456c9d67272e09f964c8&partnerId=2222#0
+chatframe  悬浮窗 --frame  http://test.sobot.com/chat/frame/index.html
+
+consolestatic console --console  http://test.sobot.com/console/login
+platformpro 电商平台 --platform  http://ten.sobot.com/platformpro/login
+
+chatadmins  工作台  --chatadmin    https://test.sobot.com/chat-web/admins_new/chat.html?id=tephGyIKRr8bW91FXml4BRxsmbsJpVAj4NCTXt2vjU62j8WFm+BSh3Uqq4jaIvxB&lt=1538105813044&st=1
+
+
+主干构建：
+工作台主干构建到develop
+其他都构建到master

@@ -1,0 +1,34 @@
+' ******************************************************************************
+' swxJRNL.swj - journal recorded on 12/30/15 by William
+' *****************************************************************************
+Dim swApp As Object
+
+Dim Part As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long, longwarnings As Long
+
+Sub main()
+
+Set swApp = _
+Application.SldWorks
+
+swApp.ActivateDoc2 "目标零件.SLDPRT", False, longstatus
+Set Part = swApp.ActiveDoc
+Set Part = swApp.ActiveDoc
+Dim myModelView As Object
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 0
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Part.WindowRedraw
+Part.WindowRedraw
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+longstatus = Part.SaveAs3("F:\研究生\科研\图纸\零件\目标零件.STEP", 0, 0)
+swApp.ExitApp
+End Sub
